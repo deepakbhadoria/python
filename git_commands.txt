@@ -64,10 +64,30 @@ git config --global -e
 to check if notepad++ is the default editor.
 
 >>>>>>Initiating a fresh project<<<<<<
-Navigate to the directory where you want your project to exist locally
+>Navigate to the directory where you want your project to exist locally
 
->git init Project_Name
+git init Project_Name
 cd Project_Name
->ls -al 
-to check all the files inside the new project folder creted.
+>to check all the files inside the new project folder creted.
+ls -al 
+
 .git/ is the folder where all the git repository exists
+
+>to create a new file
+npp filename
+
+>new file will not be tracked by git, so we have to add this to git area
+git add filename
+
+>commit the file
+git commit -m "adding new file"
+
+>push
+git push origin master
+
+> root-commit message means - it is the very first commit for the project.
+
+>to remove the entire project from local
+navigate to the project
+ls
+rm -rf Project_Name
