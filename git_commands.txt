@@ -35,3 +35,11 @@ This will let the file in the staging area and changes are ready to comitted.
 
 >To commit the file
 git commit -m "message"
+
+commit is the local command.
+still the file will be in the local git.
+to push it to gut hub repository, we have to push
+
+>To push
+git push "GitHub copy of repository" "default and only branch in the repository"
+git push origin master
