@@ -62,3 +62,12 @@ to check if core.editor is added in the profile.
 
 git config --global -e
 to check if notepad++ is the default editor.
+
+>>>>>>Initiating a fresh project<<<<<<
+Navigate to the directory where you want your project to exist locally
+
+>git init Project_Name
+cd Project_Name
+>ls -al 
+to check all the files inside the new project folder creted.
+.git/ is the folder where all the git repository exists
