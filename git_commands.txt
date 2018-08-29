@@ -26,3 +26,12 @@ it will create the file with name start.txt
 and "Test Git Quick Start demo" as file content
 >check with
 cat start.txt
+
+> To add the file newly created
+git add "filename"
+
+git status
+This will let the file in the staging area and changes are ready to comitted.
+
+>To commit the file
+git commit -m "message"
