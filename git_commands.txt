@@ -1,0 +1,28 @@
+Git_Commands
+
+>To set up profile:
+git config --global user.name "username"
+git congig --global user.email "emailaddress"
+
+>To check the profile
+git config --global --list
+<should list name and email>
+
+>To clone
+git clone <https address of the repository copied from github>
+
+navigate to repository directory created on local computer
+and check for status
+>check status
+git status
+
+we uses this command to check if there are any changes between working directory - staging area - or local repository & remote repository.
+
+>To create a simple text file.
+echo "Test Git Quick Start demo" >> start.txt
+ls 
+
+it will create the file with name start.txt
+and "Test Git Quick Start demo" as file content
+>check with
+cat start.txt
