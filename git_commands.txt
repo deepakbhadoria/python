@@ -43,3 +43,22 @@ to push it to gut hub repository, we have to push
 >To push
 git push "GitHub copy of repository" "default and only branch in the repository"
 git push origin master
+
+>Configure notepad++ with Git Bash
+configure the installation path of notepad++ to System variable - PATH
+
+>To create a new bash profile for Git and start giving alias - using notepad++ 
+>Note - bash profile should be in home installation directory --C/users/username
+notepad++ .bash_profile
+
+>to give alias name
+alias npp='notepad++.exe -multiInst -nosession
+
+>Setting notepad++ as default editor in profile.
+git config --global core.editor "notepad++.exe -multiInst -nosession"
+
+git config --global --list
+to check if core.editor is added in the profile.
+
+git config --global -e
+to check if notepad++ is the default editor.
